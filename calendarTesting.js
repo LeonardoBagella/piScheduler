@@ -9,10 +9,10 @@ testWriteKeepAlive('CAM-002', 'INACTIVE');
 testWriteKeepAlive('CAM-003', 'ACTIVE');
 */
 
-/*
+
 testReadKeepAlive('CAM-003');
 testReadKeepAlive('CAM-002');
-*/
+
 
 /*
 testRegisterEvent ('CAM-001', 
