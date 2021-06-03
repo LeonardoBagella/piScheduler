@@ -11,7 +11,7 @@ testWriteKeepAlive('CAM-003', 'ACTIVE');
 
 
 testReadKeepAlive('CAM-003');
-//testReadKeepAlive('CAM-002');
+testReadKeepAlive('CAM-002');
 
 
 /*
