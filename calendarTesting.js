@@ -18,8 +18,8 @@ testWriteKeepAlive('CAM-003', 'ACTIVE');
 testRegisterEvent ('CAM-003', 
     {
         basicData : {
-            startDate : '2021-11-21T14:40:00',
-            endDate : '2021-11-21T15:50:00',
+            startDate : '2021-11-21T17:25:00',
+            endDate : '2021-11-21T17:50:00',
             title : "Evento di prova 16",
             lastScreenshot : ""
         },

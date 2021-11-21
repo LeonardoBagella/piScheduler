@@ -81,22 +81,20 @@ async function readNextEvent(idRberry) {
             exec('docker stop restreamer', 
                     (err, stout, stderr) => {
                         if (err) {
-                            logError(err);
+                            logError(err + '\n' + stderr);
                         }
                         else{
-                            log('stdout: $(stdout)');
-                            log('stderr: $(stderr)');
+                            log(stout);
                         }
                     })
 
             exec('docker rm restreamer', 
                     (err, stout, stderr) => {
                         if (err) {
-                            logError(err);
+                            logError(err + '\n' + stderr);
                         }
                         else{
-                            log('stdout: $(stdout)');
-                            log('stderr: $(stderr)');
+                            log(stout);
                         }
                     })
 
