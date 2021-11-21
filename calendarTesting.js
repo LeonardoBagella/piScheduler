@@ -10,26 +10,26 @@ testWriteKeepAlive('CAM-003', 'ACTIVE');
 */
 
 
-testReadKeepAlive('CAM-003');
-testReadKeepAlive('CAM-002');
+//testReadKeepAlive('CAM-003');
+//testReadKeepAlive('CAM-002');
 
 
-/*
-testRegisterEvent ('CAM-001', 
+
+testRegisterEvent ('CAM-003', 
     {
         basicData : {
-            startDate : '2021-06-02T23:30:00',
-            endDate : '2021-06-03T02:00:00',
-            title : "Evento di prova 9",
+            startDate : '2021-11-21T14:40:00',
+            endDate : '2021-11-21T15:50:00',
+            title : "Evento di prova 16",
             lastScreenshot : ""
         },
         streamData : {
-            streamURL : "http://testImageStream.com/",
+            streamURL : "http://youtube.com/",
             streamKey : "asaset-4asdfsd-2453454-sdfsd449"
         }
     }       
 );
-*/
+
 
 //testReadEventDetails ('1622664687');
 //testReadEventDetails ('1622664742');
